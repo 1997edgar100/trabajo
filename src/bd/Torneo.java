@@ -29,7 +29,7 @@ public class Torneo extends javax.swing.JFrame {
     public Torneo() {
         initComponents();
     }
-
+    //prueba1
     public static final String url= "jdbc:mysql://localhost:3306/liga";
     public static final String user= "root";
     public static final String password= "";
@@ -124,7 +124,7 @@ public class Torneo extends javax.swing.JFrame {
         jButton4.setText("EDITAR");
 
         MENU.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        MENU.setText("REGRESAR AL MENÚ");
+        MENU.setText("REGRESAR AL MENÃš");
         MENU.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 MENUActionPerformed(evt);
