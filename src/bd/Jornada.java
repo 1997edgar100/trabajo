@@ -33,7 +33,7 @@ public class Jornada extends javax.swing.JFrame {
      public static final String url= "jdbc:mysql://localhost:3306/liga";
     public static final String user= "root";
     public static final String password= "";
-    
+    //Un comentario bien chido
     PreparedStatement ps;
     ResultSet rs;
     public static Connection getConnection() throws SQLException{
